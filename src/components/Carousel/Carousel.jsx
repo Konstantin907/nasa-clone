@@ -1,10 +1,11 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import "./carousel.css"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
 const Carousel = () => {
+    const sliderRef = useRef(null)
 
     var settings = {
         dots: true,
@@ -14,8 +15,16 @@ const Carousel = () => {
         slidesToScroll: 1
       };
 
+      //small imgs for slider:
+      const goToSlide = (index) =>{
+        if(sliderRef.current) {
+            sliderRef.current.slickGoTo(index);
+            currentSlide.style.transition = 'opacity 0.5s ease-in-out';
+        }
+      }
+
   return (
-    <Slider {...settings} className='slider'>
+    <Slider {...settings} ref={sliderRef} className='slider'>
         <div className='image-container'>
         <img 
             src="/space.webp" 
@@ -39,18 +48,27 @@ const Carousel = () => {
                     src="/arewealone.jpg" 
                     alt="" 
                     className='small-img'
+                    onClick={()=>goToSlide(1)}
                 />
 
                  <img 
                 src="/space.webp" 
                     alt="" 
                     className='small-img'
+                    onClick={()=>goToSlide(0)}
                  />
 
                 <img 
                     src="/spacestation.webp" 
                     alt="" 
                     className='small-img'
+                    onClick={()=>goToSlide(2)}
+                />
+                <img 
+                    src="/mars.jpg" 
+                    alt="" 
+                    className='small-img'
+                    onClick={()=>goToSlide(3)}
                 />
         </div>
             
@@ -81,18 +99,27 @@ const Carousel = () => {
                     src="/arewealone.jpg" 
                     alt="" 
                     className='small-img'
+                    onClick={()=>goToSlide(1)}
                 />
 
                  <img 
                 src="/space.webp" 
                     alt="" 
                     className='small-img'
+                    onClick={()=>goToSlide(0)}
                  />
 
                 <img 
                     src="/spacestation.webp" 
                     alt="" 
                     className='small-img'
+                    onClick={()=>goToSlide(2)}
+                />
+                <img 
+                    src="/mars.jpg" 
+                    alt="" 
+                    className='small-img'
+                    onClick={()=>goToSlide(3)}
                 />
         </div>
 
@@ -122,21 +149,29 @@ const Carousel = () => {
                     src="/arewealone.jpg" 
                     alt="" 
                     className='small-img'
+                    onClick={()=>goToSlide(1)}
                 />
 
                  <img 
                 src="/space.webp" 
                     alt="" 
                     className='small-img'
+                    onClick={()=>goToSlide(0)}
                  />
 
                 <img 
                     src="/spacestation.webp" 
                     alt="" 
                     className='small-img'
+                    onClick={()=>goToSlide(2)}
+                />
+                <img 
+                    src="/mars.jpg" 
+                    alt="" 
+                    className='small-img'
+                    onClick={()=>goToSlide(3)}
                 />
         </div>
-
         </div>
             {/* 4 */}
         <div className='image-container'>
@@ -163,18 +198,27 @@ const Carousel = () => {
                     src="/arewealone.jpg" 
                     alt="" 
                     className='small-img'
+                    onClick={()=>goToSlide(1)}
                 />
 
                  <img 
                 src="/space.webp" 
                     alt="" 
                     className='small-img'
+                    onClick={()=>goToSlide(0)}
                  />
 
                 <img 
                     src="/spacestation.webp" 
                     alt="" 
                     className='small-img'
+                    onClick={()=>goToSlide(2)}
+                />
+                <img 
+                    src="/mars.jpg" 
+                    alt="" 
+                    className='small-img'
+                    onClick={()=>goToSlide(3)}
                 />
         </div>
 
