@@ -81,3 +81,24 @@
 .small-img:active{
     border: 4px solid rgb(67, 67, 199);
 }
+
+/*  */
+.smallerCarouselLinks{
+    position: relative;
+    top: -500px;
+    left: 40px;
+}
+.line{
+    width: 310px;
+    background-color: white;
+    height: 1px;
+}
+.artemis{
+    color: #fff;
+}
+.desc-artemis{
+    color: #fff;
+    display: flex;
+    gap: 3px;
+    align-items: center;
+}

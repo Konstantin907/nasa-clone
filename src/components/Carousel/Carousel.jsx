@@ -3,6 +3,8 @@ import "./carousel.css"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import { FaArrowUpLong } from "react-icons/fa6";
+
 
 const Carousel = () => {
     const sliderRef = useRef(null)
@@ -71,7 +73,17 @@ const Carousel = () => {
                     onClick={()=>goToSlide(3)}
                 />
         </div>
-            
+
+        {/* All Smaller links */}
+            <div className="smallerCarouselLinks">
+                <div className="line"></div>
+                <h3 className="artemis">
+                    ARTEMIS STUDENT CHALLENGE
+                </h3>
+                <p className="desc-artemis">
+                    Human Exploration Rover <FaArrowUpLong style={{backgroundColor: "orange", borderRadius: "50%", padding: "2px"}}/>
+                </p>
+            </div>
         
 
         </div>
@@ -123,6 +135,17 @@ const Carousel = () => {
                 />
         </div>
 
+        {/* All Smaller links */}
+        <div className="smallerCarouselLinks">
+                <div className="line"></div>
+                <h3 className="artemis">
+                    BEYOND OUR SOLAR SYSTEM
+                </h3>
+                <p className="desc-artemis">
+                   Maybe a proof? <FaArrowUpLong style={{backgroundColor: "orange", borderRadius: "50%", padding: "2px"}}/>
+                </p>
+            </div>
+
         </div>
 
             {/* 3 */}
@@ -172,6 +195,18 @@ const Carousel = () => {
                     onClick={()=>goToSlide(3)}
                 />
         </div>
+
+            {/* All Smaller links */}
+            <div className="smallerCarouselLinks">
+                <div className="line"></div>
+                <h3 className="artemis">
+                    OUR TEAM
+                </h3>
+                <p className="desc-artemis">
+                    Fun Facts About Space Station <FaArrowUpLong style={{backgroundColor: "orange", borderRadius: "50%", padding: "2px"}}/>
+                </p>
+            </div>
+
         </div>
             {/* 4 */}
         <div className='image-container'>
@@ -221,6 +256,17 @@ const Carousel = () => {
                     onClick={()=>goToSlide(3)}
                 />
         </div>
+
+        {/* All Smaller links */}
+        <div className="smallerCarouselLinks">
+                <div className="line"></div>
+                <h3 className="artemis">
+                    SECOND STEP FOR A HUMANKIND!
+                </h3>
+                <p className="desc-artemis">
+                    Our Mars Landing <FaArrowUpLong style={{backgroundColor: "orange", borderRadius: "50%", padding: "2px"}}/>
+                </p>
+            </div>
 
         </div>
 
