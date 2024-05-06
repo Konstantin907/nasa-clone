@@ -35,24 +35,26 @@ const Carousel = () => {
         </button>
 
         <div className="small-images">
-            <img 
-                src="/arewealone.jpg" 
-                alt="" 
-                className='small-img'
-            />
+                <img 
+                    src="/arewealone.jpg" 
+                    alt="" 
+                    className='small-img'
+                />
 
-            <img 
+                 <img 
                 src="/space.webp" 
-                alt="" 
-                className='small-img'
-            />
+                    alt="" 
+                    className='small-img'
+                 />
 
-            <img 
-                src="/spacestation.webp" 
-                alt="" 
-                className='small-img'
-            />
+                <img 
+                    src="/spacestation.webp" 
+                    alt="" 
+                    className='small-img'
+                />
         </div>
+            
+        
 
         </div>
             {/* 2 */}
@@ -73,6 +75,27 @@ const Carousel = () => {
         <button className="learn-more">
             Visit 
         </button>
+
+        <div className="small-images">
+                <img 
+                    src="/arewealone.jpg" 
+                    alt="" 
+                    className='small-img'
+                />
+
+                 <img 
+                src="/space.webp" 
+                    alt="" 
+                    className='small-img'
+                 />
+
+                <img 
+                    src="/spacestation.webp" 
+                    alt="" 
+                    className='small-img'
+                />
+        </div>
+
         </div>
 
             {/* 3 */}
@@ -93,6 +116,27 @@ const Carousel = () => {
         <button className="learn-more">
             Learn More
         </button>
+
+        <div className="small-images">
+                <img 
+                    src="/arewealone.jpg" 
+                    alt="" 
+                    className='small-img'
+                />
+
+                 <img 
+                src="/space.webp" 
+                    alt="" 
+                    className='small-img'
+                 />
+
+                <img 
+                    src="/spacestation.webp" 
+                    alt="" 
+                    className='small-img'
+                />
+        </div>
+
         </div>
             {/* 4 */}
         <div className='image-container'>
@@ -113,6 +157,27 @@ const Carousel = () => {
         <button className="learn-more">
             To Red Planet
         </button>
+
+        <div className="small-images">
+                <img 
+                    src="/arewealone.jpg" 
+                    alt="" 
+                    className='small-img'
+                />
+
+                 <img 
+                src="/space.webp" 
+                    alt="" 
+                    className='small-img'
+                 />
+
+                <img 
+                    src="/spacestation.webp" 
+                    alt="" 
+                    className='small-img'
+                />
+        </div>
+
         </div>
 
     
