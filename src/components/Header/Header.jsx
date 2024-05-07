@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import "./header.css"
-import { FaAngleDown } from "react-icons/fa";
+import { FaArrowUpLong } from "react-icons/fa6";
+import { FaArrowDown } from "react-icons/fa6";
 import ExploreModal from '../Modal/ExploreModal';
 
 
@@ -12,7 +13,9 @@ const Header = () => {
     <div className='header-container'>
         <div className="left-part">
                 <h4 className="explore-heading" onClick={()=>setModal(!modal)}>
-                    Explore <FaAngleDown style={{cursor:"pointer"}}/>
+                    Explore {
+                        modal ? <FaArrowUpLong style={{cursor:"pointer"}}/> : <FaArrowDown style={{cursor:"pointer"}}/>
+                    } 
                 </h4>   
 
                 {/* modal */}
@@ -31,8 +34,8 @@ const Header = () => {
 
         <div className="right-part">
             <ul className="full-list">
-                <li>News & Events <FaAngleDown /></li>
-                <li>Multimedia <FaAngleDown /></li>
+                <li>News & Events <FaArrowDown /></li>
+                <li>Multimedia <FaArrowDown /></li>
                 <li>NASA +</li>
             </ul>
         </div>
