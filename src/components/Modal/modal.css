@@ -1,0 +1,81 @@
+.explore-modal {
+    display: flex;
+    position: absolute; 
+    top: 70px;
+    left: 0;
+    width: 100%;
+    height: 600px; 
+    z-index: 1000; 
+    background-color: #000; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.left-explore{
+
+}
+.explore-list{
+
+}
+.explore-link{
+    color: #e7dfd6;
+}
+.explore-link:hover{
+    text-decoration: dotted;
+    color: #e7dfd6;
+}
+.vertical {
+    border-left: 0.5px solid #1b1b1b;
+    height: 410px;
+    width: 5px;
+    position: absolute;
+    left: 400px;
+    top: 10px;
+  }
+
+  /* right part */
+  .exploreRightPart{
+    position: relative;
+    left: 250px;
+  }
+  .featuredHeading{
+    color: #e7dfd6;
+  }
+  .exploreCard{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 100px;
+  }
+  .singleCard{
+   display: flex;
+   flex-direction: column;
+    
+  }
+  .exploreImg{
+    width: 370px;
+    height: 300px;
+    object-fit: cover;
+  }
+  .minuteRead{
+    color: #e7dfd6;
+    font-size: medium;
+    font-weight: 300;
+    margin-top: 10px;
+  }
+  .articleExploreHeading{
+    color: #fff;
+    width: 370px;
+  }
+  .smallArticleInfo{
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+  }
+  .all{
+    color: #959594;
+    font-size: small;
+  }
+  .sm-text{
+    color: #959594;
+    font-size: small;
+  }
+  
