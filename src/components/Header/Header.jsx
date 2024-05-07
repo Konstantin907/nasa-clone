@@ -3,22 +3,24 @@ import "./header.css"
 import { FaArrowUpLong } from "react-icons/fa6";
 import { FaArrowDown } from "react-icons/fa6";
 import ExploreModal from '../Modal/ExploreModal';
+import NewsModal from '../Modal/NewsModal/NewsModal';
 
 
 const Header = () => {
     const [modal, setModal] = useState(false);
+    const [newsModal, setNewsModal] = useState(false);
 
 
   return (
     <div className='header-container'>
         <div className="left-part">
-                <h4 className="explore-heading" onClick={()=>setModal(!modal)}>
+                <h4 className={`explore-heading ${modal ? 'explore-active' : ''}`} onClick={()=>setModal(!modal)}>
                     Explore {
                         modal ? <FaArrowUpLong style={{cursor:"pointer"}}/> : <FaArrowDown style={{cursor:"pointer"}}/>
                     } 
                 </h4>   
 
-                {/* modal */}
+                {/* general modal */}
                 {modal && <ExploreModal />}
            
             <input 
@@ -34,7 +36,19 @@ const Header = () => {
 
         <div className="right-part">
             <ul className="full-list">
-                <li>News & Events <FaArrowDown /></li>
+                <li 
+                    onClick={()=>setNewsModal(!newsModal)}
+                    className={`${newsModal ? 'explore-active' : ''}`}
+                    >News & Events
+                    {
+                        newsModal ? <FaArrowUpLong />:<FaArrowDown />
+                    }
+                     
+                </li>
+                {/* News Modal */}
+                {
+                    newsModal && <NewsModal />
+                }
                 <li>Multimedia <FaArrowDown /></li>
                 <li>NASA +</li>
             </ul>
