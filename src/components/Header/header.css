@@ -3,10 +3,10 @@
     justify-content: space-between;
     align-items: center;
     background-color: #000;
-    max-width: 100%;
     height: 80px;
 }
 .left-part{
+
     display: flex;
     align-items: center;
     gap: 10px;
@@ -21,8 +21,12 @@
 }
 
 .explore-active {
-    border: 4px solid #007BFF;
+    border: 2px solid #007BFF;
     padding: 5px;
+    box-shadow: 0 0 0 2px #007BFF inset;
+}
+.explore-heading {
+    transition: all 0.3s ease;
 }
 .input-search{
     width: 200px;
@@ -32,10 +36,7 @@
     background-color: transparent;
     color: #444447;
 }
-.input-search:focus{
-    color: #fff;
-    border: 1px solid #007BFF;
-}
+
 /* middle */
 .logo-nasa{
     width: 110px;
@@ -55,11 +56,43 @@
 li{
     display: flex;
     align-items: center;
-    margin: 15px;
+    gap: 10px;
+    margin: 20px;
     color: #fff;
     font-size: large;
     font-weight: 600;
     cursor: pointer;
 }
 
+/* hamburger */
+.hamburgerMenu {
+        display: none;
+        color: #fff;
+    }
+
+
+@media (max-width: 768px) {
+    .explore-heading, .input-search, .right-part{
+        display: none;
+       }
+       .logo-nasa{
+            position: relative;
+            left: -280px;
+       }
+       .middle-part{
+        
+        z-index: 1;
+
+       }
+       .hamburgerMenu{
+        display: block;
+        width: 100%;
+        z-index: 1;
+       }
+       .hamburger-menu.open {
+        overflow: hidden;
+    }
+    }
+
+    
 
