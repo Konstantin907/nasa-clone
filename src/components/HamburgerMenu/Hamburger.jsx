@@ -1,21 +1,23 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa'; 
 import { FaAngleRight } from "react-icons/fa";
-import './hamburger.css'; 
+import './hamburger.css';  
 
 const HamburgerMenu = () => {
     const [isOpen, setIsOpen] = useState(false); 
 
     //disable scrolling when hamburger is open:
+    
+    useEffect(() => {
+        if (isOpen) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = 'auto';
+        }
+    }, [isOpen]);
+
     const toggleMenu = () => {
         setIsOpen(!isOpen);
-
-        
-        if (window.innerWidth <= 768) {
-            document.body.style.overflow = isOpen ? 'auto' : 'hidden';
-        }
-
-        document.querySelector('.hamburger-menu').classList.toggle('open');
     };
     return (
         <div className='hamburgerContainer'>
