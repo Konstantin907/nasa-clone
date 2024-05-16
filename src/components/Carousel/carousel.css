@@ -62,14 +62,14 @@
 /* small images */
 .small-images{
     display: flex;
-    gap: 20px;  
+    gap: 10px;  
 }
 
-.small-img{ 
+.small-img{  
     border-radius: 50%;
     position: relative;
     top: -400px;
-    right: -2050px;
+    right: -2080px;
     width: 70px;
     height: 60px;
     cursor: pointer;
@@ -100,7 +100,28 @@
     gap: 3px;
     align-items: center;
 }
-
+/* small devices :*/
 @media (max-width: 768px) {
-    
+    /* small imgs */
+    .small-images{
+        display: none;
+    }
+    .first-slider-heading{
+        margin-top: 100px;
+        width: 400px;
+    }
+    .desc-img{
+       font-weight: 500;
+    }
+    .learn-more{
+        margin-top: -10px;
+    }
+    .smallerCarouselLinks{
+        margin-top: -10px;
+    }
+    .single-slider-img{
+        width: 100%;
+        height: 550px;
+        object-fit: cover;
+    }
 }
