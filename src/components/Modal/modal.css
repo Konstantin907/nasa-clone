@@ -2,7 +2,7 @@
     display: flex;
     position: absolute; 
     top: 70px;
-    left: 0;
+    left: -25px;
     width: 100%;
     height: 600px; 
     z-index: 1000; 
@@ -11,6 +11,7 @@
 }
 .explore-link{
     color: #e7dfd6;
+    font-size: small;
 }
 .explore-link:hover{
     text-decoration: dotted;
@@ -18,17 +19,17 @@
 }
 .vertical {
     border-left: 0.5px solid #1b1b1b;
-    height: 410px;
+    height: 480px;
     width: 5px;
     position: absolute;
-    left: 400px;
+    left: 320px;
     top: 10px;
   }
 
   /* right part */
   .exploreRightPart{
     position: relative;
-    left: 250px;
+    left: 160px;
   }
   .featuredHeading{
     color: #e7dfd6;
@@ -36,7 +37,7 @@
   .exploreCard{
     display: grid;
     grid-template-columns: repeat(3 ,1fr);
-    gap: 100px;
+    gap: 80px;
   }
   .singleCard{
    display: flex;
@@ -44,19 +45,19 @@
     
   }
   .exploreImg{
-    width: 370px;
-    height: 300px;
+    width: 250px;
+    height: 200px;
     object-fit: cover;
   }
   .minuteRead{
     color: #e7dfd6;
-    font-size: medium;
+    font-size: smaller;
     font-weight: 300;
     margin-top: 10px;
   }
   .articleExploreHeading{
     color: #fff;
-    width: 370px;
+    width: 240px;
   }
   .smallArticleInfo{
     display: flex;
