@@ -1,0 +1,89 @@
+.featuredContainer{
+    margin-top: -330px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.headersFeatured{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.featuredNews{
+    font-size: 40px;
+}
+.moreNews{
+    font-size: large;
+    font-weight: 500;
+}
+.arrow{
+    color: #d83933;
+    font-size: larger;
+    margin-top: 6px;
+}
+.positionalLink{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.newsGrid {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 0.5fr;
+    grid-template-rows: repeat(3, 200px);
+    gap: 16px;
+    grid-template-areas: 
+      "article1 article2 article2"
+      "article1 article3 article3"
+      "article1 article4 article4";
+  }
+  
+  .articleCard:nth-child(1) {
+    grid-area: article1;
+  }
+  
+  .articleCard:nth-child(2) {
+    grid-area: article2;
+  }
+  
+  .articleCard:nth-child(3) {
+    grid-area: article3;
+  }
+  
+  .articleCard:nth-child(4) {
+    grid-area: article4;
+  }
+  
+  .articleCard {
+    position: relative;
+    overflow: hidden;
+    color: white;
+    background: #000;
+    border-radius: 8px;
+  }
+  
+  .articleImage {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  
+  .articleContent {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+  }
+  
+  .readTime {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+  
+  h3 {
+    margin: 0;
+  }
