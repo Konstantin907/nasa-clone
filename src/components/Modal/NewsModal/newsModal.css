@@ -2,12 +2,11 @@
     display: flex;
     position: absolute; 
     top: 70px;
-    left: 1320px;
-    width: 250px;
-    height: 420px; 
+    left: 780px;
+    width: 250px; 
+    height: 440px; 
     z-index: 1000; 
     background-color: #000; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 .headingContainer{
     

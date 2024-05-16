@@ -2,7 +2,6 @@
     max-width: 100%; 
     margin: 0 auto; 
     overflow: hidden;
-    
 }
 .image-container{
     width: 100%;
@@ -31,8 +30,8 @@
     position: relative;
     top: -550px;
     left: 40px;
-    font-size: 75px;
-    font-weight: 800;
+    font-size: 50px;
+    font-weight: 600;
     color: #fff;
 }
 .desc-img{
@@ -40,20 +39,20 @@
     top: -550px;
     left: 40px;
     color: #fff;
-    font-size: larger;
-    font-weight: 500;
+    font-size: small;
+    font-weight: 300;
 }
 .learn-more{
     position: relative;
-    top: -550px;
+    top: -530px;
     left: 40px;
     background-color: #d83933;
     border: none;
     color: #fff;
     width: 200px;
     height: 40px;
-    font-size: larger;
-    font-weight: 800;
+    font-size: large;
+    font-weight: 600;
     cursor: pointer;
 }
 .learn-more:hover{
@@ -63,15 +62,14 @@
 /* small images */
 .small-images{
     display: flex;
-    gap: 20px;
-    
+    gap: 20px;  
 }
 
 .small-img{ 
     border-radius: 50%;
     position: relative;
     top: -400px;
-    right: -1350px;
+    right: -2050px;
     width: 70px;
     height: 60px;
     cursor: pointer;

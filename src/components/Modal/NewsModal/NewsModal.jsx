@@ -2,7 +2,7 @@ import React from 'react'
 import "./newsModal.css"
 import { FaArrowRight } from "react-icons/fa6";
 
-
+ 
 const NewsModal = () => {
   return (
     <div className='newsModal'>
