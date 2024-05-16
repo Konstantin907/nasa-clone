@@ -3,10 +3,9 @@
     justify-content: space-between;
     align-items: center;
     background-color: #000;
-    height: 80px;
+    height: 65px;
 }
 .left-part{
-
     display: flex;
     align-items: center;
     gap: 10px;
@@ -15,7 +14,7 @@
     display: flex;
     align-items: center;
     color: #fff;
-    font-size: larger;
+    font-size: medium;
     margin-left: 35px;
     cursor: pointer;
 }
@@ -31,7 +30,7 @@
 .input-search{
     width: 200px;
     height: 30px;
-    font-size: large;
+    font-size: medium;
     border: 1px solid #444447;
     background-color: transparent;
     color: #444447;
@@ -39,7 +38,7 @@
 
 /* middle */
 .logo-nasa{
-    width: 110px;
+    width: 100px;
     height: 70px;
     object-fit: cover;
     cursor: pointer;
@@ -59,7 +58,7 @@ li{
     gap: 10px;
     margin: 20px;
     color: #fff;
-    font-size: large;
+    font-size: small;
     font-weight: 600;
     cursor: pointer;
 }
