@@ -3,7 +3,7 @@ import "./covered.css"
 import { FaSquareArrowUpRight } from "react-icons/fa6";
 
 const CoveredArticle = () => {
-  return (
+  return ( 
     <div className='coveredArticleContainer'>
       <div className="coveredArticleBackground">
         <img

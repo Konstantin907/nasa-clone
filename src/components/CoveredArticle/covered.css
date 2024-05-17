@@ -1,6 +1,6 @@
 .coveredArticleContainer{
     margin-top: 40px;
-}
+} 
 .background-Img{
     width: 100%;
     height: 620px;
@@ -46,4 +46,10 @@
 }
 .arrow-sign:hover{
     color: #cc150c;
+}
+/* media */
+@media(max-width: 768px){
+    .internText{
+        margin-top: -100px;
+    }
 }
