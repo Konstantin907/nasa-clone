@@ -15,11 +15,12 @@
     object-position: center;
     object-fit: cover;
 }
-
+ 
 /* INFO */
 .articleInfo{
     display: flex;
     flex-direction: column;
+    letter-spacing: 0.8px;
 }
 .read{
     margin-top: 5px;
@@ -35,4 +36,29 @@
     font-size: small;
     color: #b1937c;
     color: #010616;
+}
+
+/* media */
+@media(max-width: 768px) {
+    .smallArticlesContainer{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    .smallArticleImg{
+        width: 500px;
+        height: 200px;
+        border-radius: 20px;
+        object-fit: cover;
+        object-position: center;
+    }
+    .articleInfo{
+        margin-top: -10px;
+    }
+    .smaller{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        cursor: pointer;
+    }
 }

@@ -10,10 +10,12 @@
 }
 .featuredNews{
     font-size: 40px;
+    letter-spacing: 0.5px;
 }
 .moreNews{
     font-size: large;
     font-weight: 500;
+    letter-spacing: 0.5px;
 }
 .arrow{
     color: #d83933;
@@ -76,6 +78,7 @@
     padding: 16px;
     background: rgba(0, 0, 0, 0.6);
     width: 100%;
+    letter-spacing: 0.6px;
   }
   
   .readTime {
