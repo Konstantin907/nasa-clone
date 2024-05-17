@@ -1,0 +1,46 @@
+.dayContainer{
+    margin-top: -330px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    gap: 160px;
+}
+.today{
+    font-weight: 300;
+    letter-spacing: 0.8px;
+}
+.topHeadingDay{
+    font-size: 45px;
+    margin-top: -10px;
+    letter-spacing: 0.4px;
+}
+.smallDescription{
+    font-weight: 500;
+    letter-spacing: 0.4px;
+}
+.smallAuthorText{
+    width: 400px;
+    font-size: larger;
+    font-weight: 300;
+    letter-spacing: 0.8px;
+}
+.more{
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: #f64137;
+    color: #fff;
+    font-size: larger;
+    font-weight: 700;
+}
+.more:hover{
+    background-color: #d22017;
+    cursor: pointer;
+}
+.imageOfDay{
+    width: 500px;
+    height: 550px;
+    object-fit: cover;
+}

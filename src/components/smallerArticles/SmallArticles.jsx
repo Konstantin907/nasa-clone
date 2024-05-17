@@ -9,7 +9,7 @@ const SmallArticles = () => {
             className='smallArticleImg' 
             src="/blueplanet.jpg" 
             alt="" />
-      </div>
+      </div> 
       <div className="articleInfo">
             <p className="read">6 MIN READ</p>
             <h4 className="smallArticleHeading">

@@ -7,11 +7,9 @@
     align-items: center;
     gap: 25px;
 }
-.image{
-    max-width: 105px;
-}
+
 .smallArticleImg{
-    width: 100%;
+    width: 100px;
     height: 100px;
     border-radius: 50%;
     object-position: center;
@@ -26,12 +24,15 @@
 .read{
     margin-top: 5px;
     font-size: x-small;
+    color: #010616;
 }
 .smallArticleHeading{
     margin-top: -10px;
+    color: #010616;
 }
 .category{
     margin-top: -15px;
     font-size: small;
     color: #b1937c;
+    color: #010616;
 }

@@ -7,7 +7,7 @@ const CoveredArticle = () => {
     <div className='coveredArticleContainer'>
       <div className="coveredArticleBackground">
         <img
-            className='backgroundImg' 
+            className='background-Img' 
             src="/galaxy.jpg" 
             alt="" />
       </div>
