@@ -4,7 +4,7 @@ import './articles.css'
 const SmallArticles = () => {
   return (
     <div className='smallArticlesContainer'>
-      <div className="smaller">
+     
         <div className="image">
         <img 
             className='smallArticleImg' 
@@ -72,7 +72,6 @@ const SmallArticles = () => {
             <span className="category">
                 ARTICLE
             </span>
-      </div>
       </div>
       
 
