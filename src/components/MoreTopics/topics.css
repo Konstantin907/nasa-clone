@@ -32,6 +32,8 @@
 .categoryName{
     color: #fff;
     font-size: 27px;
+    font-weight: 800;
+    letter-spacing: 0.4px;
 }
 .arrowTopics{
     margin-top:5px;
@@ -41,3 +43,18 @@
     margin-left: 0;
 }
 
+/* media */
+@media(max-width: 768px){
+    .moreTopicsContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .categoryPictures{
+        display: flex;
+        flex-direction: column;
+    }
+    .categoryTopicsImage{
+        width: 500px;
+        height: 600px;
+    }
+}
