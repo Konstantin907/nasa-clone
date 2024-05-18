@@ -1,6 +1,11 @@
 import React from 'react'
 import "./footer.css"
 import { FaArrowRight } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+import { FaSquareInstagram } from "react-icons/fa6";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { IoLogoYoutube } from "react-icons/io";
+
 
 const Footer = () => {
   return (
@@ -97,8 +102,31 @@ const Footer = () => {
         </ul>
     </div>
 
+    {/* Socials */}
+    <div className="firstLinks">
+        <ul className="listFooter">
+            <h3 className="follow">
+                Follow NASA
+            </h3>
+            <div className="socialIcons">
+                <span><FaFacebook style={{color: 'white'}}/></span>
+                <span><FaSquareInstagram style={{color: 'white'}}/></span>
+                <span><FaSquareXTwitter style={{color: 'white'}}/></span>
+                <span><IoLogoYoutube style={{color: 'white'}}/></span>
+            </div>
+            <p className="moreAccounts">
+                More NASA Accounts 
+            </p>
+            <p className="newsletter">
+                NASA Newsletter
+            </p>
+        </ul>
+    </div>
+
+   
+
 </div>
-    
+     <hr className='footerHorizontal' />
 </div>
   )
 }

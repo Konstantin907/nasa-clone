@@ -66,3 +66,29 @@
     font-weight: 400;
     cursor: pointer;
 }
+.follow{
+    color: #82766a;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: -14px;
+}
+.socialIcons{
+    display: flex;
+    gap: 14px;
+}
+.socialIcons span{
+    font-size: 20px;
+    cursor: pointer;
+}
+.moreAccounts{
+    color: #fff;
+    margin-top: 50px;
+}
+.newsletter{
+    color: #fff;
+}
+.footerHorizontal{
+    color: #a1b1b6;
+    margin-left: 20px;
+    margin-right: 20px;
+}
