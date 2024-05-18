@@ -1,0 +1,43 @@
+.moreTopicsContainer{
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.topicsHeading{
+    font-size: 40px;
+    letter-spacing: 0.8px;
+}
+.categoryPictures{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.categoryTopicsImage{
+    width: 280px;
+    height: 370px;
+    position: relative;
+    object-fit: cover;
+    object-position: center;
+}
+/* div below */
+.textSide{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    position: relative;
+    top: -85px;
+   left: 25px;
+}
+.categoryName{
+    color: #fff;
+    font-size: 27px;
+}
+.arrowTopics{
+    margin-top:5px;
+    color: #f64137;
+    border-radius: 50%;
+    font-size: 30px;
+    margin-left: 0;
+}
+
