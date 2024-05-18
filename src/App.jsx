@@ -1,6 +1,7 @@
 import Carousel from "./components/Carousel/Carousel"
 import CoveredArticle from "./components/CoveredArticle/CoveredArticle"
 import Featured from "./components/FeatureNews/Featured"
+import Footer from "./components/Footer/Footer"
 import Header from "./components/Header/Header"
 import ImageOfDay from "./components/ImageOfDay/ImageOfDay"
 import MoreTopics from "./components/MoreTopics/MoreTopics"
@@ -16,6 +17,7 @@ function App() {
        <CoveredArticle />
        <ImageOfDay />
        <MoreTopics />
+       <Footer />
     </>
   )
 }
