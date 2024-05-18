@@ -1,6 +1,6 @@
 .footerContainer{
     background-color: #000;
-    height: 380px;
+    height: 430px;
     width: 100%;
 }
 .footerElements{
@@ -91,4 +91,15 @@
     color: #a1b1b6;
     margin-left: 20px;
     margin-right: 20px;
+}
+.footerClosures{
+    display: flex;
+    gap: 30px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.footerClosuresLinks{
+    text-decoration: none;
+    color: #82766a;
+    font-size: 16px;
 }

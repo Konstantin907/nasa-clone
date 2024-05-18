@@ -127,6 +127,54 @@ const Footer = () => {
 
 </div>
      <hr className='footerHorizontal' />
+
+    <div className="footerClosures">
+     <a href="" 
+        className="footerClosuresLinks">
+            Sitemap
+        </a>  
+
+        <a href="" 
+        className="footerClosuresLinks">
+            For Media
+        </a>  
+
+        <a href="" 
+        className="footerClosuresLinks">
+            Privacy Policy
+        </a>  
+
+        <a href="" 
+        className="footerClosuresLinks">
+            FOIA
+        </a>  
+
+        <a href="" 
+        className="footerClosuresLinks">
+            No FEAR Act
+        </a>  
+
+        <a href="" 
+        className="footerClosuresLinks">
+            Office of the IG
+        </a>  
+
+        <a href="" 
+        className="footerClosuresLinks">
+            Budget & Annual Reports
+        </a>  
+
+        <a href="" 
+        className="footerClosuresLinks">
+            Agency Financial Reports
+        </a>  
+
+        <a href="" 
+        className="footerClosuresLinks">
+            Contact NASA
+        </a>  
+
+    </div>
 </div>
   )
 }
