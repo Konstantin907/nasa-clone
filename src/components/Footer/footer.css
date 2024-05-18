@@ -56,6 +56,9 @@
     letter-spacing: 0.5px;
     margin-left: 5px;
 }
+.footerLinkList{
+    display: flex;
+}
 .firstLinks{
 
 }
@@ -103,4 +106,39 @@
     color: #82766a;
     font-size: 16px;
     letter-spacing: 0.4px;
+}
+
+/* media */
+@media(max-width: 768px){
+    .footerContainer{
+        display: flex;
+        flex-direction: column;
+        height: 1000px;
+        overflow: hidden;
+    }
+    .footerElements{
+        display: flex;
+        flex-direction: column;
+        margin-left: -200px;
+    }
+    .firstLinks{
+        display: flex;
+    }
+   .footerLinkList{
+        display: flex;
+        justify-content: center;
+        margin-left: 140px;
+}
+.firstLinksSocial{
+    margin-left: -220px;
+}
+.follow{
+    margin-bottom: 20px;
+}
+.footerClosures{
+    display: flex;
+    flex-wrap: wrap;
+}
+   
+
 }

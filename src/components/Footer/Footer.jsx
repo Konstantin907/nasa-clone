@@ -40,45 +40,49 @@ const Footer = () => {
     </div>
 
     {/*  */}
+<div className="footerLinkList">
     <div className="firstLinks">
-        <ul className="listFooter">
-            <li className='internalFooterLink'>
-                Home
-            </li>
-            <li className='internalFooterLink'>
-                News & Events
-            </li>
-            <li className='internalFooterLink'>
-                Multimedia
-            </li>
-            <li className='internalFooterLink'>
-                NASA+
-            </li>
-            <li className='internalFooterLink'>
-                Missions
-            </li>
-        </ul>
+            <ul className="listFooter">
+                        <li className='internalFooterLink'>
+                            Home
+                        </li>
+                        <li className='internalFooterLink'>
+                            News & Events
+                        </li>
+                        <li className='internalFooterLink'>
+                            Multimedia
+                        </li>
+                        <li className='internalFooterLink'>
+                            NASA+
+                        </li>
+                        <li className='internalFooterLink'>
+                            Missions
+                        </li>
+                    </ul>
+        
+       
     </div>
     {/*  */}
-
+    
     <div className="firstLinks">
-        <ul className="listFooter">
-            <li className='internalFooterLink'>
-                Humans in Space
-            </li>
-            <li className='internalFooterLink'>
-                Earth & Climate
-            </li>
-            <li className='internalFooterLink'>
-               The Solar System
-            </li>
-            <li className='internalFooterLink'>
-                The Universe
-            </li>
-            <li className='internalFooterLink'>
-                Science
-            </li>
-        </ul>
+        
+            <ul className="listFooter">
+                        <li className='internalFooterLink'>
+                            Humans in Space
+                        </li>
+                        <li className='internalFooterLink'>
+                            Earth & Climate
+                        </li>
+                        <li className='internalFooterLink'>
+                        The Solar System
+                        </li>
+                        <li className='internalFooterLink'>
+                            The Universe
+                        </li>
+                        <li className='internalFooterLink'>
+                            Science
+                        </li>
+                    </ul>
     </div>
 
     {/*  */}
@@ -101,9 +105,11 @@ const Footer = () => {
             </li>
         </ul>
     </div>
+</div>
+    
 
     {/* Socials */}
-    <div className="firstLinks">
+    <div className="firstLinksSocial">
         <ul className="listFooter">
             <h3 className="follow">
                 Follow NASA
