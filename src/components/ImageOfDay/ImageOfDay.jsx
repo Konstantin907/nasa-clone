@@ -5,16 +5,20 @@ const ImageOfDay = () => {
   return (
     <div className='dayContainer'>
         <div className="dayImage">
+          
             <img
                 className='imageOfDay' 
                 src="/randomperson.jpg" 
-                alt="" />
+                alt="" /> 
         </div>
         <div className="textDay">
+          <div className="smaller">
             <h4 className='today'>Today</h4>
       <h1 className="topHeadingDay">
         Image Of The Day
       </h1>
+          </div>
+            
 
       <h3 className="smallDescription">
         Space Physics and Space Weather <br />

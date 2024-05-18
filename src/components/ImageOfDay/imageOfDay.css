@@ -6,7 +6,7 @@
     justify-content: space-between;
     flex-direction: row-reverse;
     gap: 160px;
-}
+} 
 .today{
     font-weight: 300;
     letter-spacing: 0.8px;
@@ -43,4 +43,35 @@
     width: 500px;
     height: 550px;
     object-fit: cover;
+}
+.smaller{
+    display: flex;
+    flex-direction: column;
+}
+/* media */
+@media (max-width: 768px) {
+    .dayContainer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px; /* Adjust gap as needed */
+    }
+
+    .today{
+        order: 1;
+    }
+    .topHeadingDay{
+        order: 2;
+    }
+    .textDay {
+        order: 2;
+    }
+    .dayImage{
+        order: 2;
+    }
+    .imageOfDay{
+        height: 250px;
+        width: 350px;
+        object-fit: cover;
+    }
 }
