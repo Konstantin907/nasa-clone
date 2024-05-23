@@ -4,7 +4,7 @@ import "./imageOfDay.css"
 const ImageOfDay = () => {
   return (
     <div className='dayContainer'>
-        <div className="dayImage">
+        <div className="dayImage"> 
           
             <img
                 className='imageOfDay' 

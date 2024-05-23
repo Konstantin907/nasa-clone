@@ -1,15 +1,18 @@
 .dayContainer{
     margin-top: -330px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 3rem; 
+    margin-right: 3rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row-reverse;
-    gap: 160px;
+    
 } 
 .today{
     font-weight: 300;
     letter-spacing: 0.8px;
+}
+.textDay{
+    width: 700px;
 }
 .topHeadingDay{
     font-size: 45px;
@@ -21,7 +24,7 @@
     letter-spacing: 0.4px;
 }
 .smallAuthorText{
-    width: 400px;
+    width: 600px;
     font-size: larger;
     font-weight: 300;
     letter-spacing: 0.8px;
@@ -40,7 +43,8 @@
     cursor: pointer;
 }
 .imageOfDay{
-    width: 500px;
+    max-width: 600px;
+    width: 600px;
     height: 550px;
     object-fit: cover;
 }
