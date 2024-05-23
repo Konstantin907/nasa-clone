@@ -1,5 +1,5 @@
 import React from 'react'
-import "./footer.css"
+import "./footer.css" 
 import { FaArrowRight } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
@@ -10,13 +10,17 @@ import { IoLogoYoutube } from "react-icons/io";
 const Footer = () => {
   return (
     <div className='footerContainer'>
+    
+        
+<div className="footerElements">
+    <div className="footerAbout">
+        <div className="logoDiv">
         <img 
             src="/nasa-logo.jpg" 
             alt="" 
             className="footerLogo" 
         />
-<div className="footerElements">
-    <div className="footerAbout">
+    </div>
         <h1 className="footerAboutHeader">
             The National Aeronautics and <br />
             Space Administration

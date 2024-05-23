@@ -1,11 +1,15 @@
-.footerContainer{
+.footerContainer{ 
     background-color: #000;
     height: 430px;
     width: 100%;
 }
 .footerElements{
     display: flex;
+    justify-content: center;
     align-items: center;
+}
+.logoDiv{
+    margin-left: -1.5rem;
 }
 .footerLogo{
     width: 90px;
@@ -59,11 +63,8 @@
 .footerLinkList{
     display: flex;
 }
-.firstLinks{
-
-}
 .listFooter{
-
+    margin-top: 5.5rem;
 }
 .internalFooterLink{
     font-weight: 400;
@@ -97,6 +98,7 @@
 }
 .footerClosures{
     display: flex;
+    justify-content: center;
     gap: 30px;
     margin-left: 20px;
     margin-top: 40px;
