@@ -1,5 +1,5 @@
 import React from 'react'
-import "./featured.css"
+import "./featured.css" 
 import { FaSquareArrowUpRight } from "react-icons/fa6";
 
 const Featured = () => {

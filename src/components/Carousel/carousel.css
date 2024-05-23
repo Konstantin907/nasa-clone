@@ -1,31 +1,30 @@
-.slider{
-    max-width: 100%; 
-    margin: 0 auto; 
+.slider {
+    max-width: 100%;
+    margin: 0 auto;
     overflow: hidden;
 }
-.image-container{
+
+.image-container {
     width: 100%;
     z-index: -1;
 }
 
-
-.single-slider-img{
+.single-slider-img {
     width: 100%;
     height: 650px;
     object-fit: cover;
 }
-/*  */
-.dots{
+
+.dots {
     color: #000;
     z-index: -1;
 }
 
-.slick-list{
+.slick-list {
     overflow: visible;
 }
 
-
-.first-slider-heading{
+.first-slider-heading {
     position: relative;
     top: -550px;
     left: 40px;
@@ -34,7 +33,8 @@
     color: #fff;
     letter-spacing: 0.8px;
 }
-.desc-img{
+
+.desc-img {
     position: relative;
     top: -550px;
     left: 40px;
@@ -43,7 +43,8 @@
     font-weight: 300;
     letter-spacing: 0.8px;
 }
-.learn-more{
+
+.learn-more {
     position: relative;
     top: -530px;
     left: 40px;
@@ -56,47 +57,57 @@
     font-weight: 600;
     cursor: pointer;
 }
-.learn-more:hover{
+
+.learn-more:hover {
     background-color: #f02f29;
 }
 
 /* small images */
-.small-images{
+.small-images {
+    position: fixed;
+    bottom: 0;
+    top: 30rem; 
     display: flex;
-    gap: 10px;  
+    justify-content: center;
+    height: 100px;
+    width: 500px;
+    margin-left:-3rem;
+    align-items: center;
+    gap: 10px;
 }
 
-.small-img{  
+.small-img {  
     border-radius: 50%;
-    position: relative;
-    top: -400px;
-    right: -2080px;
     width: 70px;
     height: 60px;
     cursor: pointer;
     border: 1px solid black;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
 }
-.small-img:active{
+
+.small-img:active {
     border: 4px solid rgb(67, 67, 199);
 }
 
 /*  */
-.smallerCarouselLinks{
+.smallerCarouselLinks {
     position: relative;
     top: -500px;
     left: 40px;
     letter-spacing: 0.8px;
 }
-.line{
+
+.line {
     width: 310px;
     background-color: white;
     height: 1px;
 }
-.artemis{
+
+.artemis {
     color: #fff;
 }
-.desc-artemis{
+
+.desc-artemis {
     color: #fff;
     display: flex;
     gap: 3px;
