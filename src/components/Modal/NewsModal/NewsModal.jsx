@@ -3,7 +3,7 @@ import "./newsModal.css"
 import { FaArrowRight } from "react-icons/fa6";
 
  
-const NewsModal = () => {
+const NewsModal = () => { 
   return (
     <div className='newsModal'>
         <div className="positional">
