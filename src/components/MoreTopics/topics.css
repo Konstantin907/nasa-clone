@@ -2,18 +2,25 @@
     margin-top: 100px;
     margin-left: 50px;
     margin-right: 50px;
+    text-align: center;
 }
+.categoryPictures div{
+    width: 100%;
 
+}
+ 
 .topicsHeading{
     font-size: 40px;
     letter-spacing: 0.8px;
+    display: flex;
 }
 .categoryPictures{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
 }
 .categoryTopicsImage{
-    width: 280px;
+    width: 100%;
     height: 370px;
     position: relative;
     object-fit: cover;
